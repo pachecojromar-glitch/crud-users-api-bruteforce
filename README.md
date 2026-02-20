@@ -8,14 +8,14 @@ It also includes a controlled brute force test against the login endpoint.
 The purpose of this experiment is educational. All tests must be executed only in a local development environment.
 
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 - Implement secure CRUD endpoints.
 - Understand how brute force attacks work.
 - Measure the time and number of attempts.
 - Analyze vulnerabilities and propose mitigation strategies.
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python 3
 - FastAPI
@@ -23,5 +23,5 @@ The purpose of this experiment is educational. All tests must be executed only i
 - SQLite
 - Requests
 
-## 📂 Project Structure
+##  Project Structure
 
