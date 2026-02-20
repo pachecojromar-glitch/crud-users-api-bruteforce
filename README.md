@@ -10,7 +10,6 @@ It also includes a simple brute force test against the login endpoint.
 
 The purpose of this project is educational. All tests must be done only in a local environment.
 
----
 
 ## Learning Objectives
 
@@ -20,7 +19,6 @@ The purpose of this project is educational. All tests must be done only in a loc
 - Analyze security problems.
 - Suggest security improvements.
 
----
 
 ## Technologies Used
 
@@ -29,8 +27,6 @@ The purpose of this project is educational. All tests must be done only in a loc
 - Uvicorn
 - SQLite
 - Requests
-
----
 
 ## Project Structure
 
@@ -41,24 +37,18 @@ crud-users-api-bruteforce
 ├── requirements.txt  
 └── README.md  
 
----
-
 ## Installation
 
 ### 1. Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/crud-users-api-bruteforce.git  
+git clone https://github.com/pachecojromar-glitch/crud-users-api-bruteforce.git 
 cd crud-users-api-bruteforce  
 
-(Change YOUR-USERNAME to your GitHub username)
-
----
 
 ### 2. Install dependencies
 
 pip install -r requirements.txt  
 
----
 
 ## Run the API
 
@@ -72,8 +62,6 @@ http://127.0.0.1:8000/docs
 
 There you can test all endpoints.
 
----
-
 ## API Endpoints
 
 - POST /users → Create a user
@@ -82,8 +70,6 @@ There you can test all endpoints.
 - PUT /users/{id} → Update user (not password)
 - DELETE /users/{id} → Delete user
 - POST /login → Login user
-
----
 
 ## How Login Works
 
@@ -97,8 +83,6 @@ Login successful
 
 If wrong:
 Login failed
-
----
 
 ## Brute Force Test
 
@@ -117,8 +101,6 @@ python brute_force.py
 
 ⚠ The API must be running before you execute the script.
 
----
-
 ## Example Results
 
 - Attempts: 4
@@ -127,16 +109,12 @@ python brute_force.py
 
 This shows that weak passwords can be broken quickly.
 
----
-
 ## Security Problems
 
 - Passwords are stored in plain text
 - No limit for login attempts
 - No account lock
 - No extra verification
-
----
 
 ## Security Improvements
 
@@ -147,8 +125,6 @@ To make the system safer, we can add:
 - Account lock after 5 failed tries
 - CAPTCHA
 - Two-factor authentication
-
----
 
 ## Ethical Notice
 
